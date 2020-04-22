@@ -12,11 +12,11 @@ In order to show how CQRS works I created a separated entity to take care of the
 
 I used the same stack of dependencies:
 
-Spring boot
-Spring data jpa
-H2 database
-Swagger 2
-Axon for spring
+* Spring boot
+* Spring data jpa
+* H2 database
+* Swagger 2
+* Axon for spring
 
 # Test application
 I'm going to explain what was added to the project. The other tests can be performed by following the previus guide in [Even Sourcing Demo](https://github.com/luisbirchenz/even_sourcing).
