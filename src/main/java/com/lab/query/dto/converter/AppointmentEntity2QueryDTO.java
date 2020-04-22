@@ -13,7 +13,7 @@ public class AppointmentEntity2QueryDTO implements Function<AppointmentEntity, A
 	@Override
 	public AppointmentQueryDTO apply(AppointmentEntity entity) {
 		return new AppointmentQueryDTO(entity.getId(), entity.getStartDate(), 
-				entity.getEndDate(), entity.getProvider(), entity.getUser());
+				entity.getEndDate(), entity.getStatus(), entity.getProvider(), entity.getUser());
 	}
 
 }
